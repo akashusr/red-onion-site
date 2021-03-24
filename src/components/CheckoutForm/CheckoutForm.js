@@ -31,6 +31,8 @@ const CheckoutForm = (props) => {
 
     };
 
+    document.title = "CheckOut Red Onion"
+
     return (
         <form onSubmit={handleSubmit}>
             <CardElement />

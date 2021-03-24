@@ -24,6 +24,7 @@ const Login = () => {
         }
 
     }
+    document.title = "LogIn & SignUp"
 
     return (
         <div className="sign-up">
