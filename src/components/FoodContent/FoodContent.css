@@ -1,0 +1,16 @@
+.container nav .active::after{
+    content: "";
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: rgb(255, 69, 101);
+    display: block;
+}
+
+.container nav{
+    color: #000;
+}
+
+.container div > a:hover{
+    text-decoration: none;
+}

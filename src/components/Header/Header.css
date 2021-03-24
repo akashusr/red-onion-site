@@ -1,0 +1,22 @@
+img {
+  height: 50px;
+}
+
+.navbar-nav {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-image {
+  background-image: url("../../Images/OtherImage/bannerbackground.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  img {
+    height: 20px;
+  }
+}
